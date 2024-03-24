@@ -1,0 +1,46 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background:linear-gradient(#e396f6, rgba(163, 189, 238, 0.805));
+}
+.box-none{
+    display: none;
+}
+.fadeOut{
+    height: 80px;
+    width: 80px;
+    background:linear-gradient(#e396f6, rgba(163, 189, 238, 0.805));
+}
+.slide-down{
+    font-weight: 600;
+    color: rgb(3, 66, 118);
+    background-color: #e1b7b7;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(158, 154, 154);
+    overflow: hidden;
+    
+}
+.slideDown{
+    display: none;
+    padding: 20px;
+}
+.jquery-box{
+    width: 400px;
+    height: 150px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(68, 170, 207);
+}
+.purple{
+    color:rgb(255, 4, 255);
+}
+.resize{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(247, 233, 203);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(133, 127, 7);
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css links  -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>50+jquery Example</title>
+</head>
+<body>
+    <section class="container">
+        <!-- Example 1  -->
+        <h4>Example-1</h4>
+        <h1 class="text-success">Click the button to show/hide the button</h1>
+        <h2 id="text">hello world</h2>
+        <button class="btn btn-secondary" id="hide">hide</button>
+        <button class="btn btn-dark" id="show">show</button>
+        <hr><br>
+
+        <!-- Example 2  -->
+        <h4>Example-2</h4>
+        <h1 class="text-success">Click the button to FadeIn box</h1>
+        <button class="btn btn-secondary mb-2" id="fade-in">Fade In</button>
+        <div class="box-wraper d-flex"> 
+            <div class="box box-none me-4" id="fadeIn-1"></div>
+            <div class="box me-4  box-none" id="fadeIn-2"></div>
+            <div class="box  box-none" id="fadeIn-3"></div>
+        </div>  
+        <hr><br>
+
+        <!-- Example 3  -->
+        <h4>Example-3</h4>
+        <h1 class="text-success">click the button to fade out </h1>
+        <button class="btn btn-dark mb-2" id="fade-out">Fade Out</button>
+        <div class="box-wraper d-flex"> 
+            <div class="fadeOut me-4" id="fadeOut-1"></div>
+            <div class="fadeOut me-4" id="fadeOut-2"></div>
+            <div class="fadeOut" id="fadeOut-3"></div>
+        </div>  
+        <hr><br>
+        
+        <!-- Example 4 -->
+        <h4>Example-4</h4>
+        <h1 class="text-success text-success">Click the button to slide down some text</h1>
+        <h2 class="slide-down p-2" id="slideDown">Slide Down</h2>
+        <p class="slide-down slideDown" id="slideDownText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam saepe eveniet quasi quidem necessitatibus nostrum illum culpa. Ratione, exercitationem culpa mollitia ipsa consequatur inventore sed error, totam omnis quis quibusdam ullam illum quia neque quaerat fugit? Error, magnam obcaecati. Veniam ea reprehenderit quibusdam asperiores. Veritatis aut rem repellat assumenda.</p><hr><br>
+
+        <!-- Example-5  -->
+        <h4>Example-5</h4>
+        <h1>Click the button to animate the box</h1>
+        <button class="btn btn-success mb-2" id="animate">Animate</button>
+        <div class="box rounded-circle position-relative" id="animate-circle"></div>
+        <hr><br>
+
+        <!-- Example 6 -->
+        <h4>Example 6</h4>
+        <h1 class="text-success text-success">Click button to stop the slide down text</h1>
+        <button class="btn btn-dark mb-2" id="slideStop">Stop Slide</button>
+        <h2 class="slide-down p-2" id="slideDown-h2">First, you click (this text) to slide text . then click the button</h2>
+        <p class="slide-down slideDown" id="slideDownStopText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam saepe eveniet quasi quidem necessitatibus nostrum illum culpa. Ratione, exercitationem culpa mollitia ipsa consequatur inventore sed error, totam omnis quis quibusdam ullam illum quia neque quaerat fugit? Error, magnam obcaecati. Veniam ea reprehenderit quibusdam asperiores. Veritatis aut rem repellat assumenda.</p><hr><br>
+
+        <!-- Example 7  -->
+        <h4>Example 7</h4>
+        <h1 class="text-success">click the button to callback the text</h1>
+        <button class="btn btn-danger mb-2" id="callback-btn">hide</button>
+        <p class="callbackText">Lorem ipsum dolor sit amet.</p>
+        <hr><br>
+
+        <!-- Example 8  -->
+        <h4>Example 8</h4>
+        <h1 class="text-success">click the button to slide up or slide down</h1>
+        <button class="btn btn-secondary" id="slideUp-btn">slide </button>
+        <p class="text-primary fs-3 fw-bold" id="SlideUpDown">Hello World</p>
+        <hr><br>
+
+
+        <!-- Example 9 -->
+        <h4>Example 9</h4>
+        <h1 class="text-success">Click the button to append new list</h1>
+        <button class="btn btn-secondary mb-2" id="creat">Append Text</button>
+        <ol id="olCreat">
+            <li>default text</li>
+            <li>default text</li>
+            <li>default text</li>
+        </ol>
+        <hr><br>
+
+        <!-- Example 10  -->
+        <h4>Example 10</h4>
+        <h1 class="text-success">Click the button to prepend new list</h1>
+        <button class="btn btn-secondary mb-2" id="prepend">Append Text</button>
+        <ol id="olPrepend">
+            <li>default text</li>
+            <li>default text</li>
+            <li>default text</li>
+        </ol>
+        <hr><br>
+
+        <!-- Example 11  -->
+        <h4>Example 11</h4>
+        <h1 class="text-success">click the button to add some text to image before</h1>
+        <button class="btn btn-danger mb-2" id="before-btn">before</button><br>
+        <img id="before-img" src="https://www.w3schools.com/images/w3jquery.gif" width="100" height="140">
+        <hr><br>
+
+        <!-- Example 12  -->
+        <h4>Example 12</h4>
+        <h1 class="text-success">click the button to add some text to image after</h1>
+        <button class="btn btn-danger mb-2" id="after-btn">before</button><br>
+        <img id="after-img" src="https://www.w3schools.com/images/w3jquery.gif" width="100" height="140">
+        <hr><br>
+
+
+        <!-- Example 13  -->
+        <h4>Example 13</h4>
+        <h1 class="text-success">click the button to remove item</h1>
+        <button class="btn btn-dark mb-3" id="remove">remove</button>
+        <div class="box" id="removeText"></div>
+        <hr><br>
+
+        <!-- Example 14  -->
+        <h4>Example 14</h4>
+        <h1 class="text-success">click the text to remove</h1>
+        <ol>
+            <li class="remove-li">click to remove!!</li>
+            <li class="remove-li">click to remove!!</li>
+            <li class="remove-li">click to remove!!</li>
+        </ol>
+        <hr><br>
+
+        <!-- Example 15  -->
+        <h4>Example 15</h4>
+        <h1 class="text-success">Toggle Example</h1>
+        <button class="btn btn-success" id="toggle-btn">toggle</button>
+        <b id="toggleText">This line for toggle.</b>
+        <hr><br>
+
+        <!-- Example 16  -->
+        <h4>Example 16</h4>
+        <h1 class="text-success">click text to change color</h1>
+        <button class="btn btn-dark" id="color-btn">Toogle</button>
+        <h2 class="colorText">color change</h2>
+        <hr><br>
+
+        <!-- Example 17  -->
+        <h4>Example 17</h4>
+        <h1 class="text-success">Example clearQueue</h1>
+        <button class="btn btn-secondary mb-2" id="s-animetion">start animation</button>
+        <button class="btn btn-dark mb-2" id="e-amimetion">end animation</button>
+        <div class="box clearQueueBox"></div>
+        <hr><br>
+
+
+        <!-- Example 18  -->
+        <h4>Example 18</h4>
+        <h1 class="text-success">click the button to slide toggle the button</h1>
+        <h2 class="slide-down" id="slideToggle-btn">click to slide toggle</h2>
+        <p class="slide-down slideDown" id="slideToggleText">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsam necessitatibus animi, soluta assumenda impedit fuga quam iusto minus quas vel, tempore doloremque excepturi, commodi eveniet saepe provident pariatur eum?</p>
+        <hr><br>
+
+        <!-- Example 19 -->
+        <h4>Example 19</h4>
+        <h1 class="text-success">click the button to show input value in alert</h1>
+        <h3>Input : <input type="text" placeholder="type any text" id="input"></h3>
+        <button class="btn btn-dark" id="input-btn">show value</button>
+        <hr><br>
+
+        <!-- Example 20  -->
+        <h4>Example 20</h4>
+        <h1 class="text-success">click the button show href</h1>
+        <button class="btn btn-danger" id="href-btn">show href</button>
+        <a class="text-primary fs-3 ms-3" href="https://www.youtube.com" target="_blank" id="hrefText">Youtube</a>
+        <hr><br>
+
+        <!-- Example 21  -->
+        <h4>Example 21</h4>
+        <h1 class="text-success">Click the button to show/hide the button</h1>
+        <h2 id="h-text">hello world</h2>
+        <button class="btn btn-secondary" id="h-btn">hide</button>
+        <button class="btn btn-dark" id="s-btn">show</button>
+        <hr><br>
+
+         <!-- Example 22  -->
+         <h4>Example-22</h4>
+         <h1 class="text-success">Click the button to FadeIn box</h1>
+         <button class="btn btn-secondary mb-2" id="fade-in-btn">Fade In</button>
+         <div class="box-wraper d-flex"> 
+             <div class="box box-none me-4" id="fadeInText-1"></div>
+             <div class="box me-4  box-none" id="fadeInText-2"></div>
+             <div class="box  box-none" id="fadeInText-3"></div>
+         </div>  
+         <hr><br>
+
+         <!-- Example 23  -->
+        <h4>Example 23</h4>
+        <h1 class="text-success">click the button to fade out </h1>
+        <button class="btn btn-dark mb-2" id="fade-out-btn">Fade Out</button>
+        <div class="box-wraper d-flex"> 
+            <div class="fadeOut me-4" id="fadeOutText-1"></div>
+            <div class="fadeOut me-4" id="fadeOutText-2"></div>
+            <div class="fadeOut" id="fadeOutText-3"></div>
+        </div>  
+        <hr><br>
+
+        <!-- Example 24 -->
+        <h4>Example 24</h4>
+        <h1 class="text-success text-success">Click the button to slide down some text</h1>
+        <h2 class="slide-down p-2" id="slideDown-btn">Slide Down</h2>
+        <p class="slide-down slideDown" id="slideDownTextId">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam saepe eveniet quasi quidem necessitatibus nostrum illum culpa. Ratione, exercitationem culpa mollitia ipsa consequatur inventore sed error, totam omnis quis quibusdam ullam illum quia neque quaerat fugit? Error, magnam obcaecati. Veniam ea reprehenderit quibusdam asperiores. Veritatis aut rem repellat assumenda.</p><hr><br>
+
+         <!-- Example 25  -->
+         <h4>Example 25</h4>
+         <h1>Click the button to animate the box</h1>
+         <button class="btn btn-success mb-2" id="animate-btn">Animate</button>
+         <div class="box rounded-circle position-relative" id="animate-circle-id"></div>
+         <hr><br>
+
+          <!-- Example 26 -->
+        <h4>Example 26</h4>
+        <h1 class="text-success text-success">Click button to stop the slide down text</h1>
+        <button class="btn btn-dark mb-2" id="slideStop-btn">Stop Slide</button>
+        <h2 class="slide-down p-2" id="slideDown-Id">First, you click (this text) to slide text . then click the button</h2>
+        <p class="slide-down slideDown" id="slideDownStopTextId">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam saepe eveniet quasi quidem necessitatibus nostrum illum culpa. Ratione, exercitationem culpa mollitia ipsa consequatur inventore sed error, totam omnis quis quibusdam ullam illum quia neque quaerat fugit? Error, magnam obcaecati. Veniam ea reprehenderit quibusdam asperiores. Veritatis aut rem repellat assumenda.</p><hr><br>
+
+        <!-- Example 27  -->
+        <h4>Example 27</h4>
+        <h1 class="text-success">click the button to callback the text</h1>
+        <button class="btn btn-danger mb-2" id="callback-btn-Id">hide</button>
+        <p class="callbackTextId">Lorem ipsum dolor sit amet.</p>
+        <hr><br>
+
+        <!-- Example 28  -->
+        <h4>Example 28</h4>
+        <h1 class="text-success">click the button to slide up or slide down</h1>
+        <button class="btn btn-secondary" id="slideUp-btn-Id">slide </button>
+        <p class="text-primary fs-3 fw-bold" id="SlideUpDownId">Hello World</p>
+        <hr><br>
+
+
+        <!-- Example 29 -->
+        <h4>Example 29</h4>
+        <h1 class="text-success">Click the button to append new list</h1>
+        <button class="btn btn-secondary mb-2" id="creat-btn">Append Text</button>
+        <ol id="olCreatId">
+             <li>default text</li>
+             <li>default text</li>
+             <li>default text</li>
+        </ol>
+        <hr><br>
+
+
+        <!-- Example 30  -->
+        <h4>Example 30</h4>
+        <h1 class="text-success">Click the button to prepend new list</h1>
+        <button class="btn btn-secondary mb-2" id="prepend-btn">Append Text</button>
+        <ol id="olPrependId">
+             <li>default text</li>
+             <li>default text</li>
+             <li>default text</li>
+        </ol>
+        <hr><br>
+
+        <!-- Example 31  -->
+        <h4>Example 31</h4>
+        <h1 class="text-success">click the button to add some text to image before</h1>
+        <button class="btn btn-danger mb-2" id="before-btn-id">before</button><br>
+        <img id="before-img-id" src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg" width="300">
+        <hr><br>
+
+        <!-- Example 32  -->
+        <h4>Example 32</h4>
+        <h1 class="text-success">click the button to add some text to image after</h1>
+        <button class="btn btn-danger mb-2" id="after-btn-id">before</button><br>
+        <img id="after-img-id" src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg" width="300">
+        <hr><br>
+
+        <!-- Example 33  -->
+        <h4>Example 33</h4>
+        <h1 class="text-success">click the button to remove item</h1>
+        <button class="btn btn-dark mb-3" id="remove-btn">remove</button>
+        <div class="box" id="removeTextId"></div>
+        <hr><br>
+
+        <!-- Example 34  -->
+        <h4>Example 34</h4>
+        <h1 class="text-success">click the text to remove</h1>
+        <ol>
+            <li class="remove-li-item">click to remove!!</li>
+            <li class="remove-li-item">click to remove!!</li>
+            <li class="remove-li-item">click to remove!!</li>
+        </ol>
+        <hr><br>
+
+        <!-- Example 35  -->
+        <h4>Example 35</h4>
+        <h1 class="text-success">Toggle Example</h1>
+        <button class="btn btn-success" id="toggle-btn-id">toggle</button>
+        <b id="toggleTextId">This line for toggle.</b>
+        <hr><br>
+
+        <!-- Example 36  -->
+        <h4>Example 36</h4>
+        <h1 class="text-success">click text to change color</h1>
+        <button class="btn btn-dark" id="color-btn-id">Toogle</button>
+        <h2 class="colorTextId">color change</h2>
+        <hr><br>
+
+        <!-- Example 37  -->
+        <h4>Example 37</h4>
+        <h1 class="text-success">Example clearQueue</h1>
+        <button class="btn btn-secondary mb-2" id="s-animetion-btn">start animation</button>
+        <button class="btn btn-dark mb-2" id="e-amimetion-btn">end animation</button>
+        <div class="box clearQueueBoxId"></div>
+        <hr><br>
+
+
+        <!-- Example 38  -->
+        <h4>Example 38</h4>
+        <h1 class="text-success">click the button to slide toggle the button</h1>
+        <h2 class="slide-down" id="slideToggle-btn-id">click to slide toggle</h2>
+        <p class="slide-down slideDown" id="slideToggleTextId">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsam necessitatibus animi, soluta assumenda impedit fuga quam iusto minus quas vel, tempore doloremque excepturi, commodi eveniet saepe provident pariatur eum?</p>
+        <hr><br>
+
+        <!-- Example 39 -->
+        <h4>Example 39</h4>
+        <h1 class="text-success">click the button to show input value in alert</h1>
+        <h3>Input : <input type="text" value="hello world" id="inputId"></h3>
+        <button class="btn btn-dark" id="input-btn-id">show value</button>
+        <hr><br>
+
+        <!-- Example 40  -->
+        <h4>Example 40</h4>
+        <h1 class="text-success">click the button show href</h1>
+        <button class="btn btn-danger" id="href-btn-id">show href</button>
+        <a class="text-primary fs-3 ms-3" href="https://www.google.com" target="_blank" id="hrefTextId">Google</a>
+        <hr><br>
+
+        <!-- Example 41  -->
+        <h4>Example 41</h4>
+        <h1 class="text-success">click the button to see fadeTo Example</h1>
+        <button class="btn btn-warning mb-2" id="fadeTo">fade to</button>
+        <div class="box mb-4" id="fadeToBox-1"></div>
+        <div class="box mb-4" id="fadeToBox-2"></div>
+        <div class="box" id="fadeToBox-3"></div>
+
+        <!-- Example 42  -->
+        <h4>Example 42</h4>
+        <h1 class="text-success">click the button to empty the text</h1>
+        <button class="btn btn-dark mb-2" id="empty-btn">empty</button>
+        <div class="jquery-box">
+            <h4>Hello world</h4>
+            <h4>Hello world</h4>
+            <h4>Hello world</h4>
+        </div>
+        <hr><br>
+
+        <!-- Example 43  -->
+        <h4>Example 43</h4>
+        <h1 class="text-success">click the button to toggle class</h1>
+        <button class="btn btn-dark" id="addClass-btn">toggle</button>
+        <h2 id="addClass">Hello everyone</h2>
+        <hr><br>
+
+        <!-- Example 44  -->
+        <h4>Example 44</h4>
+        <h1 class="text-success">click the button to increage height or width</h1>
+        <button class="btn btn-warning mb-2" id="resize-btn">resize</button>
+        <div class="jquery-box" id="resize-box">
+        </div>
+        <hr><br>
+
+        <!-- Example 45  -->
+        <h4>Example 45</h4>
+        <h1 class="text-success">click the text to remove</h1>
+        <ol>
+            <li class="remove-li-itemId">click to remove!!</li>
+            <li class="remove-li-itemId">click to remove!!</li>
+            <li class="remove-li-itemId">click to remove!!</li>
+        </ol>
+        <hr><br>
+
+        <!-- Example 46 -->
+        <h4>Example 46</h4>
+        <h1 class="text-success">Click the button to append new list</h1>
+        <button class="btn btn-secondary mb-2" id="creat-btn-id">Append Text</button>
+        <ol id="olCreatText">
+            <li>default text</li>
+            <li>default text</li>
+            <li>default text</li>
+        </ol>
+        <hr><br>
+
+        <!-- Example 47  -->
+        <h4>Example 47</h4>
+        <h1 class="text-success">Click the button to prepend new list</h1>
+        <button class="btn btn-secondary mb-2" id="prepend-btn-id">Append Text</button>
+        <ul id="olPrependText">
+            <li>default text</li>
+            <li>default text</li>
+            <li>default text</li>
+        </ul>
+        <hr><br>
+
+        <!-- Example 48  -->
+        <h4>Example 48</h4>
+        <h1 class="text-success">click the button to empty the text</h1>
+        <button class="btn btn-dark mb-2" id="empty-btn-id">empty</button>
+        <div class="resize">
+            <h4>Hello world</h4>
+            <h4>Hello world</h4>
+            <h4>Hello world</h4>
+        </div>
+        <hr><br>
+
+        <!-- Example 49  -->
+        <h4>Example 49</h4>
+        <h1 class="text-success">click the button to increage height or width</h1>
+        <button class="btn btn-warning mb-2" id="resize-btn-id">resize</button>
+        <div class="resize" id="resize-boxId">
+        </div>
+        <hr><br>
+
+        <!-- Example 50  -->
+        <h4>Example 50</h4>
+        <h1 class="text-success">click the button to see fadeTo Example</h1>
+        <button class="btn btn-warning mb-2" id="fadeTo-btn">fade to</button>
+        <div class="resize mb-4" id="fadeToBoxId-1"></div>
+        <div class="resize mb-4" id="fadeToBoxId-2"></div>
+        <div class="resize" id="fadeToBoxId-3"></div>
+
+
+
+    </section>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
